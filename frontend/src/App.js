@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './index.scss';
+import { BrowserRouter } from 'react-router-dom';
+import AllComponents from "./components/AllComponents";
 
 function App() {
   return (
     <div className="App">
-     
+      <BrowserRouter>
+        <AllComponents />
+      </BrowserRouter>
     </div>
   );
 }

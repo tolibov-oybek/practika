@@ -6,9 +6,9 @@ function Navigation() {
             <nav id="navigation-wrapper">
                 <div className="left">
                     <h1>
-                        <a to={"/"}>
+                        <Link to={"/"}>
                             <h4>Fonte</h4>
-                        </a>
+                        </Link>
                     </h1>
                 </div>
                 <div className="middle">
@@ -19,7 +19,7 @@ function Navigation() {
                     <Link to="/contacts">Контакты</Link>
                 </div>
                 <div className="right">
-                    <button className="warning-btn">Войти</button>
+                    <Link to={"/login"}><button className="warning-btn">Войти</button></Link>
                     <a href="/#ru">Рус</a>
                 </div>
             </nav>
